@@ -17,9 +17,11 @@
         <label for="task">Task</label>
         <input type="text" id="task" name="task" value="{{ $task->task }}"><br>
 
-        <button type="submit">Update Task</button>
+        <button type="submit">Update</button>
     </form>
     <br>
-    <a href="{{ route('tasks.index') }}">Back to Task List</a>
+    <a href="{{ route('tasks.index') }}">
+        <button>Back</button>
+    </a>
 </body>
 </html>
